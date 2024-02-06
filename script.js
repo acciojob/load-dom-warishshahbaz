@@ -1,2 +1,4 @@
 //your JS code here. If required.
-window.onload("DOM load success");
+function checkCookies() {
+	console.log('DOM load success');
+}

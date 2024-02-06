@@ -1,3 +1,6 @@
 window.onload = (event) => {
-  console.log("DOM load success");
+  let body = document.getElementByTagName('body');
+	let text = document.createTextNode("DOM load success"");
+	body.appendChild(text);
+	
 };
